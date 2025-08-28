@@ -9,11 +9,13 @@ vibeRouter - это универсальная платформа, предос�
 
 ## Что мы предлагаем
 
+<!-- Нужно добавить иконки в карточки через icon -->
+
 {{< cards >}}
-  {{< card link="docs/getting-started" title="Быстрый старт" icon="rocket-launch" >}}
-  {{< card link="docs/API" title="API Reference" icon="code-bracket-square" >}}
-  {{< card link="docs/examples" title="Примеры использования" icon="document-text" >}}
-  {{< card link="docs/integrations" title="Интеграции" icon="puzzle-piece" >}}
+  {{< card link="docs/getting-started" title="Быстрый старт" >}}
+  {{< card link="docs/API" title="API Reference" >}}
+  {{< card link="docs/examples" title="Примеры использования" >}}
+  {{< card link="docs/integrations" title="Интеграции" >}}
 {{< /cards >}}
 
 ## Основные возможности

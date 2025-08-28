@@ -7,12 +7,14 @@ VibeRouter - универсальный API для работы с популя�
 
 ## Навигация по документации
 
+<!-- Нужно добавить иконки в карточки через icon -->
+
 {{< cards >}}
-  {{< card link="/docs/getting-started" title="Быстрый старт" icon="rocket" >}}
-  {{< card link="/docs/API" title="API Reference" icon="code-bracket" >}}
-  {{< card link="/docs/examples" title="SDK и примеры" icon="document-text" >}}
-  {{< card link="/docs/ai-prompts" title="AI Prompts" icon="sparkles" >}}
-  {{< card link="/docs/integrations" title="Интеграции" icon="puzzle-piece" >}}
+  {{< card link="/docs/getting-started" title="Быстрый старт" >}}
+  {{< card link="/docs/API" title="API Reference" >}}
+  {{< card link="/docs/examples" title="SDK и примеры" >}}
+  {{< card link="/docs/ai-prompts" title="AI Prompts" >}}
+  {{< card link="/docs/integrations" title="Интеграции" >}}
 {{< /cards >}}
 
 Нужна помощь? [Свяжитесь с нами](https://viberouter.dev/support)
