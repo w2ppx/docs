@@ -1,5 +1,5 @@
 ---
-title: \[ POST \] Chat Completion - Запрос к модели
+title: "[ POST ] Chat Completion - Запрос к модели"
 type: docs
 weight: 1
 ---

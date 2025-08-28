@@ -1,5 +1,5 @@
 ---
-title: [ GET ] List of models - Список моделей
+title: "[ GET ] List of models - Список моделей"
 type: docs
 weight: 1
 ---
