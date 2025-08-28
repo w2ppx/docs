@@ -65,17 +65,20 @@ completion = client.chat.completions.create(
 ```python
 functions = [
     {
-        "name": "get_weather",
-        "description": "Получить погоду в городе",
-        "parameters": {
-            "type": "object",
-            "properties": {
-                "city": {
-                    "type": "string",
-                    "description": "Название города"
-                }
-            },
-            "required": ["city"]
+        "type": "function",
+        "function": {
+            "name": "get_weather",
+            "description": "Получить погоду в городе",
+            "parameters": {
+                "type": "object",
+                "properties": {
+                    "city": {
+                        "type": "string",
+                        "description": "Название города"
+                    }
+                },
+                "required": ["city"]
+            }
         }
     }
 ]
