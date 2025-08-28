@@ -12,7 +12,7 @@ VibeRouter предоставляет REST API для взаимодействи
 
 ## Базовая информация
 
-- **Base URL**: `https://api.vibeRouter.dev/api/v1`
+- **Base URL**: `https://api.viberouter.dev/v1`
 - **Формат данных**: JSON
 - **Аутентификация**: Bearer token
 - **Версионирование**: через URL path

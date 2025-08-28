@@ -4,10 +4,8 @@ type: docs
 weight: 1
 ---
 
-## Список моделей
-
-``` http
-GET /platform/models
+``` text
+GET /models
 ```
 
 Возвращает список доступных моделей.

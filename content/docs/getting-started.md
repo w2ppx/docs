@@ -1,6 +1,6 @@
 ---
 title: Быстрый старт
-next: api-reference
+next: API
 ---
 
 ## Начало работы
@@ -25,7 +25,7 @@ import openai
 
 client = openai.OpenAI(
     api_key='YOUR_VIBEROUTER_API_KEY',
-    base_url="https://api.vibeRouter.dev/api/v1"
+    base_url="https://api.vibeRouter.dev/v1"
 )
 
 completion = client.chat.completions.create(
@@ -41,7 +41,7 @@ print(completion.choices[0].message.content)
 
 ```javascript
 const apiKey = 'YOUR_VIBEROUTER_API_KEY';
-const apiUrl = 'https://api.vibeRouter.dev/api/v1/chat/completions';
+const apiUrl = 'https://api.vibeRouter.dev/v1/chat/completions';
 
 async function getCompletion() {
   const response = await fetch(apiUrl, {
@@ -77,7 +77,7 @@ import (
 
 func main() {
     apiKey := "YOUR_VIBEROUTER_API_KEY"
-    url := "https://api.vibeRouter.dev/api/v1/chat/completions"
+    url := "https://api.vibeRouter.dev/v1/chat/completions"
 
     jsonData := []byte(`{
         "model": "google/gemini-2.5-pro",

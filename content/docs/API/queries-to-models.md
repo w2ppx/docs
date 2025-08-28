@@ -4,8 +4,8 @@ type: docs
 weight: 1
 ---
 
-``` http
-POST /platform/chat/completions
+``` text
+POST /chat/completions
 ```
 
 Генерирует ответ модели на основе переданного диалога.

@@ -23,7 +23,7 @@ alwaysApply: false
 
 You're a VibeRouter API integration expert. Create a production-ready implementation using this API specification:
 
-Base URL: [https://api.viberouter.dev/api/v1](https://api.viberouter.dev/api/v1)
+Base URL: https://api.viberouter.dev/v1
 
 Available Endpoints:
 1. Chat Completion
@@ -91,8 +91,10 @@ alwaysApply: false
 
 You're a system design expert specializing in AI chat applications. Create a robust chat system using this VibeRouter API specification:
 
+Base URL: https://api.viberouter.dev/v1
 API Endpoint:
-POST [https://api.viberouter.dev/api/v1/chat/completions](https://api.viberouter.dev/api/v1/chat/completions)
+POST /chat/completions - запрос к модели
+GET /models - получение поделей
 
 Request Format:
 {
@@ -177,6 +179,11 @@ alwaysApply: false
 ---
 
 You're an expert in implementing function calling systems with AI models. Create a robust implementation using this VibeRouter API specification:
+
+Base URL: https://api.viberouter.dev/v1
+API Endpoint:
+POST /chat/completions - запрос к модели
+GET /models - получение поделей
 
 Function Calling Request Format:
 {
@@ -266,8 +273,10 @@ alwaysApply: false
 
 You're a streaming implementation expert. Create a robust client-side streaming system using this VibeRouter API specification:
 
-Streaming Request:
-POST [https://api.viberouter.dev/api/v1/chat/completions](https://api.viberouter.dev/api/v1/chat/completions)
+Base URL: https://api.viberouter.dev/v1
+API Endpoint:
+POST /chat/completions - запрос к модели
+GET /models - получение поделей
 {
   "model": "string",
   "messages": [...],
@@ -320,8 +329,10 @@ alwaysApply: false
 
 You're a code generation and analysis expert. Create robust development tools using this VibeRouter API specification:
 
+Base URL: https://api.viberouter.dev/v1
 API Endpoint:
-POST [https://api.viberouter.dev/api/v1/chat/completions](https://api.viberouter.dev/api/v1/chat/completions)
+POST /chat/completions - запрос к модели
+GET /models - получение поделей
 
 System Messages for Different Tasks:
 1. Code Generation:
@@ -372,6 +383,11 @@ alwaysApply: false
 ---
 
 You're a software testing expert specializing in testing API integrations. Create a comprehensive test suite for a client application that uses the VibeRouter API.
+
+Base URL: https://api.viberouter.dev/v1
+API Endpoint:
+POST /chat/completions - запрос к модели
+GET /models - получение поделей
 
 API Test Points to Cover:
 1. Authentication:
