@@ -3,8 +3,6 @@ title: Documentation
 next: getting-started
 ---
 
-# VibeRouter API Documentation
-
 Welcome to VibeRouter - универсальный API для работы с популярными языковыми моделями. Наша платформа предоставляет единый интерфейс для взаимодействия с различными LLM, упрощая процесс интеграции и использования AI в ваших проектах.
 
 ## Quick Navigation

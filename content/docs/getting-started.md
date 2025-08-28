@@ -3,8 +3,6 @@ title: Быстрый старт
 next: api-reference
 ---
 
-# Быстрый старт с VibeRouter
-
 ## Начало работы
 
 1. Зарегистрируйтесь на [VibeRouter](https://viberouter.dev) и подтвердите email

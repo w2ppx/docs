@@ -4,8 +4,6 @@ type: docs
 weight: 1
 ---
 
-# Chat Completion - Запрос к модели
-
 ``` http
 POST /platform/chat/completions
 ```
