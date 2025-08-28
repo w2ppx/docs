@@ -9,7 +9,7 @@ next: integrations
 
 ```python
 completion = client.chat.completions.create(
-    model="google/gemini-2.5-pro",
+    model="gemini-2.5-flash",
     messages=[
         {"role": "user", "content": "Напиши креативную историю"}
     ],
@@ -21,7 +21,7 @@ completion = client.chat.completions.create(
 
 ```python
 completion = client.chat.completions.create(
-    model="google/gemini-2.5-pro",
+    model="gemini-2.5-flash",
     messages=[
         {"role": "user", "content": "Напиши длинную историю"}
     ],
@@ -33,7 +33,7 @@ completion = client.chat.completions.create(
 
 ```python
 stream = client.chat.completions.create(
-    model="google/gemini-2.5-pro",
+    model="gemini-2.5-flash",
     messages=[
         {"role": "user", "content": "Расскажи длинную историю"}
     ],
@@ -55,7 +55,7 @@ messages = [
 ]
 
 completion = client.chat.completions.create(
-    model="google/gemini-2.5-pro",
+    model="gemini-2.5-flash",
     messages=messages
 )
 ```
@@ -81,7 +81,7 @@ functions = [
 ]
 
 completion = client.chat.completions.create(
-    model="google/gemini-2.5-pro",
+    model="gemini-2.5-flash",
     messages=[
         {"role": "user", "content": "Какая погода в Москве?"}
     ],
@@ -95,7 +95,7 @@ completion = client.chat.completions.create(
 ```python
 try:
     completion = client.chat.completions.create(
-        model="google/gemini-2.5-pro",
+        model="gemini-2.5-flash",
         messages=[
             {"role": "user", "content": "Hello"}
         ]
