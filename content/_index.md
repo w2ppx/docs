@@ -1,17 +1,25 @@
 ---
-title: My Site
+title: vibeRouter
 toc: false
 ---
 
-This is the landing page.
+# Универсальный интерфейс для искусственного интеллекта
 
-## Explore
+vibeRouter - это универсальная платформа, предоставляющая единый доступ ко всем популярным нейросетям для разработчиков.
+
+## Что мы предлагаем
 
 {{< cards >}}
-  {{< card link="docs" title="Docs" icon="book-open" >}}
-  {{< card link="about" title="About" icon="user" >}}
+  {{< card link="docs/getting-started" title="Быстрый старт" icon="rocket" >}}
+  {{< card link="docs/API" title="API Reference" icon="code-bracket" >}}
+  {{< card link="docs/examples" title="Примеры использования" icon="document-text" >}}
+  {{< card link="docs/integrations" title="Интеграции" icon="puzzle-piece" >}}
 {{< /cards >}}
 
-## Documentation
+## Основные возможности
 
-For more information, visit [Hextra](https://imfing.github.io/hextra).
+- Единый API для доступа к различным моделям ИИ
+- Простая интеграция в ваши приложения
+- Поддержка популярных нейросетей
+- Готовые SDK для разных языков программирования
+- Высокая производительность и надежность
