@@ -1,18 +1,19 @@
 ---
 title: Documentation
-next: first-page
+next: getting-started
 ---
 
-This is a demo of the theme's documentation layout.
+# VibeRouter API Documentation
 
-## Hello, World!
+Welcome to VibeRouter - универсальный API для работы с популярными языковыми моделями. Наша платформа предоставляет единый интерфейс для взаимодействия с различными LLM, упрощая процесс интеграции и использования AI в ваших проектах.
 
-```go {filename="main.go"}
-package main
+## Quick Navigation
 
-import "fmt"
+- [Быстрый старт](/docs/getting-started) - Начало работы с API
+- [API Reference](/docs/api-reference) - Подробная документация по API
+- [SDK и примеры](/docs/examples) - Примеры использования на разных языках
+- [Интеграции](/docs/integrations) - Готовые интеграции с IDE
+- [AI Prompts](/docs/ai-prompts) - Готовые промпты для разработки
+- [FAQ](https://viberouter.dev/support) - Часто задаваемые вопросы
 
-func main() {
-    fmt.Println("Hello, World!")
-}
-```
+Нужна помощь? [Свяжитесь с нами](https://viberouter.dev/support)
